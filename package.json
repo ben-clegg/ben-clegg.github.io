@@ -1,0 +1,31 @@
+{
+  "name": "newsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./_site",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss _site/assets/css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "eleventy-build": "npx @11ty/eleventy",
+    "build": "npm run clean && eleventy && npm run css-build",
+    "start": "eleventy --serve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-clegg/newsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-clegg/newsite/issues"
+  },
+  "homepage": "https://github.com/ben-clegg/newsite#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "bulma": "^0.9.2",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
