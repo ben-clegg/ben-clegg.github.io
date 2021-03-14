@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Clegg - {{title}}</title>
+    <link rel="stylesheet" href="assets/css/mystyles.css">
+  </head>
+  <body>
+    <section class="hero is-medium is-primary header-bg-img">
+        <div class="hero-head">
+            <a class="title is-1" href="/">
+                <div style="margin-left: 12px; margin-top:4px">bc_</div>
+            </a>
+        </div>
+        <div class="hero-body">
+        </div>
+        <div class="hero-foot">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-start">
+                <!--Nav Item-->
+                <a class="navbar-item" href="/">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <i class="mdi mdi-24px mdi-information"></i>
+                        </span>
+                        <span>About</span>
+                    </span>
+                </a>
+                <!--Nav Item-->
+                <a class="navbar-item" href="/projects">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <i class="mdi mdi-24px mdi-lightbulb-on"></i>
+                        </span>
+                        <span>Projects</span>
+                    </span>
+                </a>
+                <!--Nav Item-->
+                <a class="navbar-item" href="/publications">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <i class="mdi mdi-24px mdi-bookshelf"></i>
+                        </span>
+                        <span>Publications</span>
+                    </span>
+                </a>
+            </div>
+            <div class="navbar-end">
+                <!--Nav Item-->
+                <a class="navbar-item" href="https://www.linkedin.com/in/ben-clegg-599501142/">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <i class="mdi mdi-24px mdi-linkedin"></i>
+                        </span>
+                        <span>LinkedIn</span>
+                    </span>
+                </a>
+                <!--Nav Item-->
+                <a class="navbar-item" href="https://github.com/ben-clegg">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <i class="mdi mdi-24px mdi-github"></i>
+                        </span>
+                        <span>GitHub</span>
+                    </span>
+                </a>
+            </div>
+        </nav>
+        </div>
+    </section>
+
+    <section class="section">
+    <div class="container">
+        <h1 class="title is-2">{{title}}</h1>
+    </div>
+    </section>
+    {{ content | safe }}
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy Ben Clegg 2021</p>
+            <a href="https://bulma.io">
+                <img
+                src="https://bulma.io/images/made-with-bulma.png"
+                alt="Made with Bulma"
+                width="128"
+                height="24">
+            </a>
+            <p>Built with 11ty.</p>
+        </div>
+    </footer>
+  </body>
+</html>
