@@ -9729,3 +9729,19 @@ a.tag:hover {
   padding: 0.25rem 0.5rem;
   text-align: center;
   vertical-align: top; }
+
+.header-logo-wrapper {
+  padding-left: 12px;
+  padding-right: 4px;
+  margin-top: 4px;
+  font-family: 'AnkaCoderCondensedRegular', monospace;
+  font-weight: normal;
+  font-style: italic;
+  background-color: #363636;
+  width: auto;
+  display: inline-block; }
+
+.footer-set-font {
+  font-family: 'AnkaCoderCondensedRegular', monospace;
+  font-weight: normal;
+  font-style: normal; }
