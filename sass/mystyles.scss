@@ -12,9 +12,29 @@ $primary: $purple;
     background-size: cover; 
     background-color: $primary;
 }
-
 @import "../node_modules/bulma/bulma.sass";
 @import url(https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css);
 
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/elements/_all.sass";
+
+
+.header-logo-wrapper
+{
+    padding-left: 12px; 
+    padding-right: 4px;
+    margin-top: 4px; 
+    font-family:'AnkaCoderCondensedRegular', monospace;
+    font-weight: normal;
+    font-style: italic;
+    background-color: $grey-darker;
+    width: auto;
+    display: inline-block;
+}
+
+.footer-set-font
+{
+    font-family:'AnkaCoderCondensedRegular', monospace;
+    font-weight: normal;
+    font-style: normal;
+}

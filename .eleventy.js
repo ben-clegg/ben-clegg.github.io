@@ -1,7 +1,8 @@
 module.exports = (eleventyConfig) => {
     // Copy the "assets" directory to the compiled "_site" folder.
     eleventyConfig.addPassthroughCopy('assets');
-  
+    eleventyConfig.addPassthroughCopy('favicon.ico');
+    
     return {
       dir: {
         input: './',
