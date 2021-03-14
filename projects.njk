@@ -1,0 +1,22 @@
+---
+layout: common.njk
+title: Projects
+---
+
+<section class="section">
+  <div class="container">
+        <div class="tile is-ancestor">
+            {%- for project in collections.projectEntry -%}
+
+                <div class="tile is-child box is-6">
+                    <figure class="image is-6">
+                        <img src="/assets/img/projects/{{project.data.image}}">
+                    </figure>
+                    <h2 class="title is-3">{{project.data.name}}</h2>
+                    <h3 class="subtitle is-4">{{project.data.tools}}</h3>
+                    {{project.templateContent | safe}}
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
+</section>

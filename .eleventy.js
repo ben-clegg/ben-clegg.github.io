@@ -13,6 +13,6 @@ module.exports = (eleventyConfig) => {
         'md',
         'njk',
       ],
-      pathPrefix: '/newsite/', // omit this line if using custom domain
+      pathPrefix: '/', // omit this line if using custom domain
     };
   };
