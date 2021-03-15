@@ -4,17 +4,21 @@ title: Projects
 ---
 
 <section class="section">
-  <div class="container">
-        <div class="tile is-ancestor">
+    <div class="container">
+        <!--<div class="columns">-->
+        <div class="tile is-ancestor is-flex-wrap-wrap is-flex-direction-row">
             {%- for project in collections.projectEntry -%}
-
-                <div class="tile is-child box is-6">
-                    <figure class="image is-6">
-                        <img src="/assets/img/projects/{{project.data.image}}">
-                    </figure>
-                    <h2 class="title is-3">{{project.data.name}}</h2>
-                    <h3 class="subtitle is-4">{{project.data.tools}}</h3>
-                    {{project.templateContent | safe}}
+                <div class="tile is-child is-4" style="margin-bottom: auto;">
+                    <div class="box m-2">
+                        {%- if project.data.image -%}
+                        <figure class="image mb-4">
+                            <img src="/assets/img/projects/{{project.data.image}}">
+                        </figure>
+                        {%- endif -%}
+                        <h2 class="title is-3">{{project.data.name}}</h2>
+                        <h3 class="subtitle is-4">{{project.data.tools}}</h3>
+                        {{project.templateContent | safe}}
+                    </div>
                 </div>
             {%- endfor -%}
         </div>

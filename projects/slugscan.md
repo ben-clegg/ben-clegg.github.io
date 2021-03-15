@@ -1,0 +1,13 @@
+---
+tags: projectEntry
+name: RFID Register System
+image: 
+tools: Python, Linux, Electronics
+links: [{icon: "github", link: "link"}]
+---
+
+SLUGScan is a register system for fire-safety at society events.
+
+Society members are given RFID cards, which are scanned by the system, updating a SQLite database which records their presence at events.
+
+The system runs on a Raspberry Pi 3, and is housed in a 3D printed case, adapted from an open design.

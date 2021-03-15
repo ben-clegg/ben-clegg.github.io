@@ -3,7 +3,7 @@ tags: projectEntry
 name: PiROMANCER
 image: piromancer.jpg
 tools: Python, Linux, Electronics
-links: [{}]
+links: [{icon: "github", link: "link"}]
 ---
 
 My undergraduate dissertation project, PiROMANCER, was a psuedo-modular synthesiser running on a Raspberry Pi 3.
