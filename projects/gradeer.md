@@ -3,7 +3,8 @@ tags: projectEntry
 name: Gradeer
 image: 
 tools: Java, Maven
-links: [{icon: "github", link: "link"}]
+links: [{icon: "github", link: "https://github.com/ben-clegg/gradeer", title: "GitHub"}]
+date: 2021-03-17
 ---
 
 Gradeer is a modular assessment tool with support for both automated and manual assessment.

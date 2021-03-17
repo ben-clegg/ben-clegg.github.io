@@ -3,7 +3,8 @@ tags: projectEntry
 name: PiROMANCER
 image: piromancer.jpg
 tools: Python, Linux, Electronics
-links: [{icon: "github", link: "link"}]
+links: [{icon: "github", link: "https://github.com/ben-clegg/piromancer-synth", title: "GitHub"}]
+date: 2017-05-09
 ---
 
 My undergraduate dissertation project, PiROMANCER, was a psuedo-modular synthesiser running on a Raspberry Pi 3.
