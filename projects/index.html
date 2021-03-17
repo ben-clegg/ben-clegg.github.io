@@ -21,7 +21,7 @@
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-start">
                 <!--Nav Item-->
-                <a class="navbar-item" href="/">
+                <a class="navbar-item" href="/" title="About">
                     <span class="icon-text">
                         <span class="icon">
                             <i class="mdi mdi-24px mdi-information"></i>
@@ -30,7 +30,7 @@
                     </span>
                 </a>
                 <!--Nav Item-->
-                <a class="navbar-item" href="/projects">
+                <a class="navbar-item" href="/projects" title="Projects">
                     <span class="icon-text">
                         <span class="icon">
                             <i class="mdi mdi-24px mdi-lightbulb-on"></i>
@@ -39,7 +39,7 @@
                     </span>
                 </a>
                 <!--Nav Item-->
-                <a class="navbar-item" href="/publications">
+                <a class="navbar-item" href="/publications" title="Publications">
                     <span class="icon-text">
                         <span class="icon">
                             <i class="mdi mdi-24px mdi-bookshelf"></i>
@@ -50,7 +50,7 @@
             </div>
             <div class="navbar-end">
                 <!--Nav Item-->
-                <a class="navbar-item" href="https://www.linkedin.com/in/ben-clegg-599501142/">
+                <a class="navbar-item" target="_blank" href="https://www.linkedin.com/in/ben-clegg-599501142/" title="LinkedIn">
                     <span class="icon-text">
                         <span class="icon">
                             <i class="mdi mdi-24px mdi-linkedin"></i>
@@ -59,7 +59,7 @@
                     </span>
                 </a>
                 <!--Nav Item-->
-                <a class="navbar-item" href="https://github.com/ben-clegg">
+                <a class="navbar-item" target="_blank" href="https://github.com/ben-clegg" title="GitHub">
                     <span class="icon-text">
                         <span class="icon">
                             <i class="mdi mdi-24px mdi-github"></i>
@@ -83,44 +83,94 @@
 <section class="section">
     <div class="container">
         <!--<div class="columns">-->
-        <div class="tile is-ancestor is-flex-wrap-wrap is-flex-direction-row"><div class="tile is-child is-4" style="margin-bottom: auto;">
-                    <div class="box m-2"><figure class="image mb-4">
-                            <img src="/assets/img/projects/bullet-hellions.gif">
-                        </figure><h2 class="title is-3">Bullet Hellions</h2>
-                        <h3 class="subtitle is-4">Haxe, HaxePunk</h3>
-                        <p>Bullet Hellions is a local two-player versus bullet-hell shooter.
-Players use various attacks at their disposal to eliminate their opponent, whilst dodging the deadly projectiles headed their way.</p>
-
-                    </div>
-                </div><div class="tile is-child is-4" style="margin-bottom: auto;">
-                    <div class="box m-2"><h2 class="title is-3">Code Defenders</h2>
-                        <h3 class="subtitle is-4">Java, Tomcat</h3>
-                        <p>I contributed to the Code Defenders project, by implementing a single-player mode, which allows for individuals to practice unit testing in a non-critical environment, with instantaneous feedback.
-This involved integrating toolsets into a Tomcat web application. EvoSuite was used for automatic test suite generation, and Major for mutation testing.</p>
-<p>My work was funded by The University of Sheffield's SURE Scheme, and supervised by Prof. Gordon Fraser and Dr. José Miguel Rojas.</p>
-<p>(Note: Due to the high computational requirements of test suite generation, the single-player mode is currently disabled on the public-deployed version of Code Defenders.)</p>
-
-                    </div>
-                </div><div class="tile is-child is-4" style="margin-bottom: auto;">
-                    <div class="box m-2"><h2 class="title is-3">Gradeer</h2>
+        <div class="tile is-ancestor is-flex-wrap-wrap"><div class="tile is-child is-4 p-2">
+                    <div class="box" style="height: 100%"><h2 class="title is-3">Gradeer</h2>
                         <h3 class="subtitle is-4">Java, Maven</h3>
+                        <!--Links go here--><a class="has-text-primary" target="_blank" href=https://github.com/ben-clegg/gradeer title=GitHub>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-github"></i>
+                            </span>
+                        </a><hr class="has-background-primary"/>
                         <p>Gradeer is a modular assessment tool with support for both automated and manual assessment.
 The tool allows tutors to run unit tests and static analysis tools on students' programs to automatically assess their code.
 In addition, tutors can use manual checks to grade and write feedback for learning outcomes which are more difficult to assess automatically.
 I have helped to deploy this tool in a series of programming assignments for an introductory Java programming module at the University of Sheffield.</p>
 
                     </div>
-                </div><div class="tile is-child is-4" style="margin-bottom: auto;">
-                    <div class="box m-2"><h2 class="title is-3">Namagra</h2>
+                </div><div class="tile is-child is-4 p-2">
+                    <div class="box" style="height: 100%"><figure class="image mb-4">
+                            <img src="/assets/img/projects/risk-of-random-2.png">
+                        </figure><h2 class="title is-3">Risk of Random 2</h2>
+                        <h3 class="subtitle is-4">JavaScript</h3>
+                        <!--Links go here--><a class="has-text-primary" target="_blank" href=https://github.com/ben-clegg/riskofrandom2/ title=GitHub>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-github"></i>
+                            </span>
+                        </a><a class="has-text-primary" target="_blank" href=https://ben.clegg.tech/riskofrandom2/ title=Link>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-open-in-new"></i>
+                            </span>
+                        </a><hr class="has-background-primary"/>
+                        <p>A webapp to randomly select a player character for the roguelike game, Risk of Rain 2.</p>
+
+                    </div>
+                </div><div class="tile is-child is-4 p-2">
+                    <div class="box" style="height: 100%"><figure class="image mb-4">
+                            <img src="/assets/img/projects/ttt_northsea.jpg">
+                        </figure><h2 class="title is-3">ttt_northsea</h2>
+                        <h3 class="subtitle is-4">Valve Hammer Editor</h3>
+                        <!--Links go here--><a class="has-text-primary" target="_blank" href=https://github.com/ben-clegg/ttt_northsea title=GitHub>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-github"></i>
+                            </span>
+                        </a><a class="has-text-primary" target="_blank" href=https://steamcommunity.com/sharedfiles/filedetails/?id=961571256 title=Steam_Workshop>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-steam"></i>
+                            </span>
+                        </a><hr class="has-background-primary"/>
+                        <p>An oilrig-themed map for TTT, a hidden identity gamemode for garrysmod.
+With a broad variety of area in a relatively small environment, players are provided with many opportunties for frantic emergent gameplay, which the gamemode thrives on.</p>
+<p>The map is featured in a video with over 380K views by a popular YouTube channel, and has around 32000 subscribers on the Steam Workshop.</p>
+
+                    </div>
+                </div><div class="tile is-child is-4 p-2">
+                    <div class="box" style="height: 100%"><figure class="image mb-4">
+                            <img src="/assets/img/projects/namagra.png">
+                        </figure><h2 class="title is-3">Namagra</h2>
                         <h3 class="subtitle is-4">JavaScript, Vue</h3>
+                        <!--Links go here--><a class="has-text-primary" target="_blank" href=https://github.com/ben-clegg/namagra title=GitHub>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-github"></i>
+                            </span>
+                        </a><hr class="has-background-primary"/>
                         <p>A simple anagram solving webapp.</p>
 
                     </div>
-                </div><div class="tile is-child is-4" style="margin-bottom: auto;">
-                    <div class="box m-2"><figure class="image mb-4">
+                </div><div class="tile is-child is-4 p-2">
+                    <div class="box" style="height: 100%"><figure class="image mb-4">
+                            <img src="/assets/img/projects/slugscan.jpg">
+                        </figure><h2 class="title is-3">RFID Register System</h2>
+                        <h3 class="subtitle is-4">Python, Linux, Electronics</h3>
+                        <!--Links go here--><a class="has-text-primary" target="_blank" href=https://github.com/SLUGSoc/slugscan title=GitHub>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-github"></i>
+                            </span>
+                        </a><hr class="has-background-primary"/>
+                        <p>SLUGScan is a register system for fire-safety at society events.
+Society members are given RFID cards, which are scanned by the system, updating a SQLite database which records their presence at events.</p>
+<p>The system runs on a Raspberry Pi 3, and is housed in a 3D printed case, adapted from an open design.</p>
+
+                    </div>
+                </div><div class="tile is-child is-4 p-2">
+                    <div class="box" style="height: 100%"><figure class="image mb-4">
                             <img src="/assets/img/projects/piromancer.jpg">
                         </figure><h2 class="title is-3">PiROMANCER</h2>
                         <h3 class="subtitle is-4">Python, Linux, Electronics</h3>
+                        <!--Links go here--><a class="has-text-primary" target="_blank" href=https://github.com/ben-clegg/piromancer-synth title=GitHub>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-github"></i>
+                            </span>
+                        </a><hr class="has-background-primary"/>
                         <p>My undergraduate dissertation project, PiROMANCER, was a psuedo-modular synthesiser running on a Raspberry Pi 3.</p>
 <p>The system is Linux based, with synthesis performed using Pyo, a Python audio library.
 The Raspberry Pi's GPIO pins are used as input to determine signal routes, alongside &quot;analog&quot; input with the use of a DAC.
@@ -130,36 +180,36 @@ The repository also includes the system's code and design files, licensed under 
 <p>(This dissertation project was supervised by Prof. Guy Brown at The University of Sheffield).</p>
 
                     </div>
-                </div><div class="tile is-child is-4" style="margin-bottom: auto;">
-                    <div class="box m-2"><h2 class="title is-3">Random Album Artwork Generator</h2>
-                        <h3 class="subtitle is-4">NodeJS</h3>
-                        <p>In online graphic design and photo-editing forums, creating album art using a set of randomly seeded values is a popular game.
-This program automates the process of obtaining random values.
-The project was developed in under 8 hours at a MLH LocalHackDay, hosted by HackSheffield in December 2017.</p>
+                </div><div class="tile is-child is-4 p-2">
+                    <div class="box" style="height: 100%"><figure class="image mb-4">
+                            <img src="/assets/img/projects/bullet-hellions.gif">
+                        </figure><h2 class="title is-3">Bullet Hellions</h2>
+                        <h3 class="subtitle is-4">Haxe, HaxePunk</h3>
+                        <!--Links go here--><a class="has-text-primary" target="_blank" href=https://github.com/ben-clegg/bullet-hellions title=GitHub>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-github"></i>
+                            </span>
+                        </a><hr class="has-background-primary"/>
+                        <p>Bullet Hellions is a local two-player versus bullet-hell shooter.
+Players use various attacks at their disposal to eliminate their opponent, whilst dodging the deadly projectiles headed their way.</p>
 
                     </div>
-                </div><div class="tile is-child is-4" style="margin-bottom: auto;">
-                    <div class="box m-2"><h2 class="title is-3">Risk of Random 2</h2>
-                        <h3 class="subtitle is-4">JavaScript</h3>
-                        <p>A webapp to randomly select a player character for the roguelike game, Risk of Rain 2.</p>
-
-                    </div>
-                </div><div class="tile is-child is-4" style="margin-bottom: auto;">
-                    <div class="box m-2"><h2 class="title is-3">RFID Register System</h2>
-                        <h3 class="subtitle is-4">Python, Linux, Electronics</h3>
-                        <p>SLUGScan is a register system for fire-safety at society events.</p>
-<p>Society members are given RFID cards, which are scanned by the system, updating a SQLite database which records their presence at events.</p>
-<p>The system runs on a Raspberry Pi 3, and is housed in a 3D printed case, adapted from an open design.</p>
-
-                    </div>
-                </div><div class="tile is-child is-4" style="margin-bottom: auto;">
-                    <div class="box m-2"><figure class="image mb-4">
-                            <img src="/assets/img/projects/ttt_northsea.jpg">
-                        </figure><h2 class="title is-3">ttt_northsea</h2>
-                        <h3 class="subtitle is-4">Valve Hammer Editor</h3>
-                        <p>An oilrig-themed map for TTT, a hidden identity gamemode for garrysmod.
-With a broad variety of area in a relatively small environment, players are provided with many opportunties for frantic emergent gameplay, which the gamemode thrives on.</p>
-<p>The map is featured in a video with over 380K views by a popular YouTube channel, and has around 32000 subscribers on the Steam Workshop, with several positive comments.</p>
+                </div><div class="tile is-child is-4 p-2">
+                    <div class="box" style="height: 100%"><h2 class="title is-3">Code Defenders</h2>
+                        <h3 class="subtitle is-4">Java, Tomcat</h3>
+                        <!--Links go here--><a class="has-text-primary" target="_blank" href=https://github.com/CodeDefenders/CodeDefenders title=GitHub>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-github"></i>
+                            </span>
+                        </a><a class="has-text-primary" target="_blank" href=https://code-defenders.org/ title=Code_Defenders_Site>
+                            <span class="icon ml-1 mr-3">
+                                <i class="mdi mdi-36px mdi-open-in-new"></i>
+                            </span>
+                        </a><hr class="has-background-primary"/>
+                        <p>I contributed to the Code Defenders project, by implementing a single-player mode, which allows for individuals to practice unit testing in a non-critical environment, with instantaneous feedback.
+This involved integrating toolsets into a Tomcat web application. EvoSuite was used for automatic test suite generation, and Major for mutation testing.</p>
+<p>My work was funded by The University of Sheffield's SURE Scheme, and supervised by Prof. Gordon Fraser and Dr. José Miguel Rojas.</p>
+<p>(Note: Due to the high computational requirements of test suite generation, the single-player mode is currently disabled on the public-deployed version of Code Defenders.)</p>
 
                     </div>
                 </div></div>
