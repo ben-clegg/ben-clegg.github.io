@@ -1,47 +1,73 @@
 ---
 layout: common.njk
 title: About
+experienceItems: [
+  {icon: "language-java", text: "Java"},
+  {icon: "language-r", text: "R"},
+  {icon: "language-python", text: "Python"},
+  {icon: "nodejs", text: "NodeJS"},
+  {icon: "database-cog", text: "SQL"},
+  {icon: "square-small", text: "Haxe"},
+  {icon: "grave-stone", text: "Flash / ActionScript"},
+  {icon: "linux", text: "Linux"},
+  {icon: "git", text: "Git"}
+]
 ---
 
 <section class="section">
   <div class="container">
+    <div class="tile is-ancestor is-flex-wrap-wrap">
 
-      <h2 class="title is-10">Hi, I'm Ben Clegg</h2>
-      <div class="columns">
-        <div class="column">
-          <p>I'm currently researching Software Engineering Education for a PhD at The University of Sheffield.</p>
-        </div>
-        <div class="column is-2">
-            <figure class="image is-128x128">
+      <div class="tile is-child is-12 p-2">
+        <div class="box" style="height: 100%">
+          <h2 class="title is-3">Hi, I'm Ben Clegg</h2>
+          <div class=columns>
+            <div class="column is-10">
+              <p>I'm currently researching Software Engineering Education for a PhD at The University of Sheffield.</p>
+            </div>
+            <div class="column is-2">
+              <figure class="image">
                 <img src="/assets/img/portrait.jpg">
-            </figure>
+              </figure>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-</section>
 
-<section class="section">
-  <div class="container">
-      <h2 class="title is-3">Technical Experience</h2>
-      <div class="tile is-ancestor">
-        <div class="tile is-child box">Java</div>
-        <div class="tile is-child box">R</div>
-        <div class="tile is-child box">Python</div>
-        <div class="tile is-child box">NodeJS</div>
-        <div class="tile is-child box">SQL</div>
-        <div class="tile is-child box">Haxe</div>
-        <div class="tile is-child box">Flash / ActionScript (RIP)</div>
-        <div class="tile is-child box">Linux</div>
-        <div class="tile is-child box">Git</div>
+      <div class="tile is-child is-6 p-2">
+        <div class="box" style="height: 100%">
+          <h2 class="title is-3">Technical Experience</h2>
+
+            {%- for item in experienceItems -%}
+              <p>
+                <span class="icon-text">
+                  <span class="icon has-text-primary">
+                    <i class="mdi mdi-{{item.icon}}"></i>
+                  </span>
+                  <span>{{item.text | safe}}</span>
+                </span>
+              </p>
+              
+            {%- endfor-%}
+        </div>
       </div>
-    </div>
+
+      <div class="tile is-child is-6 p-2">
+        <div class="box" style="height: 100%">
+          <h2 class="title is-3 is-spaced">Awards</h2>
+          <h3 class="subtitle is-4">SURE Student Researcher of the Year (2016)</h3>
+          <p>Awarded following my summer research project, which resulted in a publication at a prestigious conference, and an offer for postgraduate study.</p>
+          <p>The project was part of The University of Sheffield's SURE (Sheffield Undergraduate Research Experience) scheme, supervised by Prof. Gordon Fraser, who nominated me for the award.</p>
+        </div>
+      </div>
+
+
+    </div>  
+  </div>
 </section>
 
 <section class="section">
   <div class="container">
-      <h2 class="title is-3 is-spaced">Awards</h2>
-      <h3 class="subtitle is-4">SURE Student Researcher of the Year (2016)</h3>
-      <p>Awarded following my summer research project, which resulted in a publication at a prestigious conference, and an offer for postgraduate study.</p>
-      <p>The project was part of The University of Sheffield's SURE (Sheffield Undergraduate Research Experience) scheme, supervised by Prof. Gordon Fraser, who nominated me for the award.</p>
+      
     </div>
 </section>
