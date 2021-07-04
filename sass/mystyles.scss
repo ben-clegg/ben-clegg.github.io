@@ -18,23 +18,9 @@ $primary: $purple;
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/elements/_all.sass";
 
-
-.header-logo-wrapper
-{
-    padding-left: 12px; 
-    padding-right: 4px;
-    margin-top: 4px; 
-    font-family:'AnkaCoderCondensedRegular', monospace;
-    font-weight: normal;
-    font-style: italic;
-    background-color: $grey-darker;
-    width: auto;
-    display: inline-block;
-}
-
 .footer-set-font
 {
-    font-family:'AnkaCoderCondensedRegular', monospace;
+    font-family: monospace;
     font-weight: normal;
     font-style: normal;
 }
