@@ -1,8 +1,14 @@
 <div class="box">
     {%- if project.data.image -%}
-    <figure class="image mb-4">
-        <img src="/assets/img/projects/{{project.data.image}}">
-    </figure>
+        {%- if project.data.links[0] -%}
+        <a href={{project.data.links[0].link}}>
+        {%- endif -%}
+        <figure class="image mb-4">
+            <img src="/assets/img/projects/{{project.data.image}}">
+        </figure>
+        {%- if project.data.links[0] -%}
+        </a>
+        {%- endif -%}
     {%- endif -%}
     <h2 class="title is-3">{{project.data.name}}</h2>
     <h3 class="subtitle is-4">{{project.data.tools}}</h3>
