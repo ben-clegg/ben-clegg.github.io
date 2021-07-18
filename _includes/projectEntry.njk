@@ -1,0 +1,19 @@
+<div class="box">
+    {%- if project.data.image -%}
+    <figure class="image mb-4">
+        <img src="/assets/img/projects/{{project.data.image}}">
+    </figure>
+    {%- endif -%}
+    <h2 class="title is-3">{{project.data.name}}</h2>
+    <h3 class="subtitle is-4">{{project.data.tools}}</h3>
+    <!--Links go here-->
+    {%- for link in project.data.links -%}
+    <a class="has-text-primary" target="_blank" href={{link.link}} title={{link.title}}>
+        <span class="icon ml-1 mr-3">
+            <i class="mdi mdi-36px mdi-{{link.icon}}"></i>
+        </span>
+    </a>
+    {%- endfor -%}
+    <hr class="has-background-primary"/>
+    {{project.templateContent | safe}}
+</div>
