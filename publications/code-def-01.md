@@ -2,7 +2,7 @@
 tags: publicationEntry
 name: "Code Defenders: Crowdsourcing Effective Tests and Subtle Mutants with a Mutation Testing Game"
 authors: "José Miguel Rojas, Thomas White, Benjamin Clegg, Gordon Fraser"
-links: [{icon: "file-pdf", link: "http://code-defenders.org/papers/ICSE17_CodeDefendersStudy.pdf", title: "PrePrint"}, 
+links: [{icon: "file-pdf", link: "http://code-defenders.org/papers/ICSE17_CodeDefendersStudy.pdf", title: "Preprint"}, 
 {icon: "open-in-new", link: "https://doi.org/10.1109/ICSE.2017.68", title: "DOI"}]
 date: 2017-05-27
 ---

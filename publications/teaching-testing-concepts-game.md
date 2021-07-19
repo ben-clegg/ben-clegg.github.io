@@ -2,7 +2,7 @@
 tags: publicationEntry
 name: "Teaching Software Testing Concepts Using a Mutation Testing Game"
 authors: "Benjamin Clegg, José Miguel Rojas, Gordon Fraser"
-links: [{icon: "file-pdf", link: "http://code-defenders.org/papers/ICSE17_Education.pdf", title: "PrePrint"}, 
+links: [{icon: "file-pdf", link: "http://code-defenders.org/papers/ICSE17_Education.pdf", title: "Preprint"}, 
 {icon: "open-in-new", link: "https://doi.org/10.1109/ICSE-SEET.2017.1", title: "DOI"}]
 date: 2017-05-28
 ---
