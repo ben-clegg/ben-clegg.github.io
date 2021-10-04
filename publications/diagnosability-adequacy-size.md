@@ -1,6 +1,6 @@
 ---
 tags: publicationEntry
-name: "Paper: Diagnosability, Adequacy & Size: How Test Suites Impact Autograding"
+name: "Diagnosability, Adequacy & Size: How Test Suites Impact Autograding"
 authors: "Benjamin Clegg, Gordon Fraser, Phil McMinn"
 date: 2022-01-03
 ---
