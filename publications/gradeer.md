@@ -12,8 +12,6 @@ date: 2021-05-07
   booktitle={2021 IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)}, 
   title={Gradeer: An Open-Source Modular Hybrid Grader}, 
   year={2021},
-  volume={},
-  number={},
   pages={60-65},
   doi={10.1109/ICSE-SEET52601.2021.00015}}
 `
