@@ -2,7 +2,7 @@
 tags: publicationEntry
 name: "Gradeer: An Open-Source Modular Hybrid Grader"
 authors: "Benjamin Clegg, Maria-Cruz Villa-Uriol, Phil McMinn, Gordon Fraser"
-links: [{icon: "file-pdf", link: "https://arxiv.org/pdf/2102.09400.pdf", title: "Preprint"}, 
+links: [{icon: "file-pdf", link: "/assets/pdf/bclegg-gradeer-2021.pdf", title: "Preprint"}, 
 {icon: "open-in-new", link: "https://doi.org/10.1109/ICSE-SEET52601.2021.00015", title: "DOI"}]
 date: 2021-05-07
 ---
