@@ -3,7 +3,7 @@ tags: publicationEntry
 name: "Diagnosability, Adequacy & Size: How Test Suites Impact Autograding"
 authors: "Benjamin Clegg, Gordon Fraser, Phil McMinn"
 links: [{icon: "file-pdf", link: "/assets/pdf/bclegg-diagnosability-adequacy-size-2022.pdf", title: "Open Access PDF"}, 
-{icon: "open-in-new", link: "https://hdl.handle.net/10125/79139", title: "Entry on ScholarSpace"}]
+{icon: "open-in-new", link: "https://scholarspace.manoa.hawaii.edu/items/9b22c5e6-de3e-49ef-827a-9dce6a4da2e1/full", title: "Entry on ScholarSpace"}]
 date: 2022-01-04
 ---
 `@inproceedings{Clegg-2022-diagnosability,
