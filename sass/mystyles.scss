@@ -24,3 +24,15 @@ $primary: $purple;
     font-weight: normal;
     font-style: normal;
 }
+
+li::before {
+    content: "• ";
+    color: $primary;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+}
